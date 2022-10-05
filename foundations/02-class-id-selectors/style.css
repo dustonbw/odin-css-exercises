@@ -1,0 +1,19 @@
+.a {
+background-color: rgb(249, 190, 236);
+font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.three {
+    font-size: 24px;
+}
+
+#no-two {
+    color: rgb(003, 005, 200);
+    font-size: 36px;
+}
+
+.big {
+    background-color: rgb(81, 215, 81);
+    font-size: 24px;
+    font-weight: bold;
+}
