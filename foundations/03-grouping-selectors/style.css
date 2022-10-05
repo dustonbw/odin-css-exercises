@@ -1,0 +1,11 @@
+.button {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-family: "Times New Roman", "Helvetica", sans-serif;
+}
+
+.button.yellow-button {
+    background-color: rgb(255, 255, 0);
+    color: black;
+}
