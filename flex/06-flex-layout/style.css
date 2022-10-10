@@ -7,15 +7,15 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-}
+} */
 
 .left-links, .right-links {
   justify-content: center;
@@ -29,26 +29,37 @@ ul {
   gap: 16px;
 }
 
-.header a, .footer a {
+.header a, .footer a { /* I'm being more specific than the solution here */ 
   text-decoration: none;
   color: rgb(116, 116, 116)
 }
 
 .footer {
   background-color: #eeeeee;
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  margin-top: auto;
+  margin-top: auto; */
+}
+
+/* from solution - setting justification to space-between pushes everything where it should go lol */ 
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-self: center;
+  justify-content: center; /* from solution */ 
+  /* justify-self: center; */
   margin: auto;
+  flex: 1; /* from solution */
 }
 
 .logo {
